@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+
+.nav {
+    margin: 40px 77px 0 77px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav P {
+    color: #333;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1.92px;
+}
+
+.main {
+
+    margin: 200px 119px 0 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 118.78px;
+}
+
+.main .img {
+    width: 50%;
+}
+
+.main .content {
+    width: 50%;
+}
+
+.img img {
+    width: 100%;
+}
+
+.content h1 {
+    color: var(--gray-1, #333);
+    font-family: Space Mono;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -2.24px;
+}
+
+.content p {
+    max-width: 381px;
+    margin: 36px 0 64px 0;
+    color: var(--gray-2, #4F4F4F);
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.84px;
+}
+
+button {
+    padding: 23.5px 43px;
+    background: var(--gray-1, #333);
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+}
+
+.footer {
+    margin: 308px 0 24px 0;
+    text-align: center;
+}
+
+.footer p {
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer span {
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+
+
+
+
+@media screen and (max-width: 375px) {
+    .nav {
+        margin: 20px 24px 0 24px;
+    }
+
+    .main {
+        width: 100%;
+        margin: 64px 0 0 0;
+        display: block;
+    }
+
+    .main .img {
+        width: auto;
+        margin: 0 44px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .main .content {
+        width: auto;
+        margin: 77.65px 1px 0 24px;
+    }
+
+    .content h1 {
+        font-size: 48px;
+        letter-spacing: -1.68px;
+    }
+
+    .content p {
+        margin: 30px 0 66px 0;
+        font-size: 18px;
+        letter-spacing: -0.63px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .nav {
+        margin: 20px 24px 0 24px;
+    }
+
+    .main {
+        width: 100%;
+        margin: 64px 0 0 0;
+        display: block;
+    }
+
+    .main .img {
+        width: auto;
+        margin: 0 44px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .main .content {
+        width: auto;
+        margin: 77.65px 1px 0 24px;
+    }
+
+    .content h1 {
+        font-size: 48px;
+        letter-spacing: -1.68px;
+    }
+
+    .content p {
+        margin: 30px 0 66px 0;
+        font-size: 18px;
+        letter-spacing: -0.63px;
+    }
+}
